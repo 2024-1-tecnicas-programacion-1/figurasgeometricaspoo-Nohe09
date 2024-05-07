@@ -1,9 +1,9 @@
 package com.mycompany.figurasgeometricaspoo;
 
 public class Triangulo extends FiguraGeometrica {
-     private double area;
-    private double altura;
-    public Triangulo(String nombre, String color,double area , double altura ) {
+    private final double area;
+    private final double altura;
+    public Triangulo(double area, double altura, String nombre, String color) {
         super(nombre, color);
         this.area=area;
         this.altura=altura;
